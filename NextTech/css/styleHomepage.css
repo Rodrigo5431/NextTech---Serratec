@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  body {
+    background-color: #151718;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .barraNavegacao {
+    border-radius: 0 0 40px 40px;
+    box-shadow: 0 3px 5px rgba(255, 255, 255, 0.1);
+    height: 64px;
+    padding: 1% 4% 2% 4%;
+    font-family: "Inter", sans-serif;
+    background-color: #151718;
+  }
+  
+  .icone,
+  .nome {
+    margin-right: 10px;
+    margin-top: 8px;
+  }
+  .icone {
+    width: 22px;
+  }
+  .imagem {
+    width: 50%;
+    border-radius: 25px;
+  }
+  .imagem__esquerda {
+    margin-right: 6%;
+  }
+  .imagem__direita {
+    margin-left: 6%;
+  }
+  
+  .botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 20px;
+    gap: 12%;
+  }
+  
+  /* Home page */
+  .apresentacao {
+    padding-top: 3%;
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: 6vh;
+    font-weight: 700;
+    background-color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  .titulo__primeiro {
+    font-size: 10vh;
+    font-weight: 700;
+    background: linear-gradient(270deg, #4b2c63 40%, #bfa2d4 60%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10%;
+  }
+  
+  .titulo_segundo,
+  .titulo_terceiro {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    margin-bottom: 13%;
+  }
+  .titulo__quarto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .apresentacao > h2 {
+    color: #fff;
+  }
+  
+  .biography {
+    display: flex;
+    margin-top: 100px;
+  }
+  
+  .firstText {
+    display: flex;
+    align-items: center;
+  }
+  
+  .paragrafo {
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 50px;
+  }
+  .apresentacao > h2 {
+    font-weight: 700;
+  }
+  .forte {
+    font-weight: 800;
+  }

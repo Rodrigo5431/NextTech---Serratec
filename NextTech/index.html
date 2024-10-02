@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NextTech</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/styleHomepage.css"/>
+    <link rel="stylesheet" href="./css/footer.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./css/carrossel.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"/>
+
+  </head>
+  <body>
+    <button id="btnRolar">
+      <span class="material-icons">
+        arrow_upward
+      </span>
+    </button>
+    
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fundo_cabecalho">
+        <div class="container barraNavegacao">
+          <a href="../index.html">
+            <img
+              class="icone"
+              src="../assets/icons/logo.svg"
+              alt="Ícone NextTech"
+            />
+            <a class="navbar-brand nome" href="../index.html">NextTech</a>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse hamburguerbar" id="navbarNav">
+            <ul class="navbar-nav ms-auto botoes">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/sobre.html"
+                  >Sobre</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container apresentacao">
+        <h1 class="titulo titulo__primeiro">NextTech</h1>
+        <h2 class="paragrafo textoInicial">
+          Transformando o Futuro com Inteligência Artificial e Automação
+        </h2>
+        <div class="biography">
+          <img
+            class="imagem imagem__esquerda"
+            src="./assets/img/next.jpg"
+            alt="Sede da NextTech"/>
+          <p class="paragrafo firstText">
+            Na NextTech, nossa missão é revolucionar a maneira como as empresas
+            operam, trazendo soluções inovadoras de Inteligência Artificial e
+            Automação de Processos (RPA) que ajudam a aumentar a eficiência,
+            reduzir custos e aprimorar a experiência do cliente.
+          </p>
+        </div>
+      </section>
+
+      <section class="container escolha">
+        <div class="thirdPart">
+          <h1 class="titulo titulo__segundo">Por Que Escolher a NextTech?</h1>
+          <div class="advantages">
+            <ul class="paragrafo">
+              <li>
+                <strong class="forte">Soluções Personalizadas:</strong class="forte"> Nossos serviços são
+                adaptados às necessidades específicas de cada cliente,
+                garantindo que sua empresa obtenha o máximo valor de nossas
+                tecnologias.
+              </li>
+              <li>
+                <strong class="forte">Expertise em Tecnologia:</strong class="forte"> Nossa equipe de
+                especialistas está sempre atualizada com as últimas tendências e
+                inovações, oferecendo soluções que realmente fazem a diferença.
+              </li>
+              <li>
+                <strong class="forte">Apoio Contínuo:</strong class="forte"> Estamos comprometidos em ser
+                seus parceiros na jornada de transformação digital, oferecendo
+                suporte e consultoria contínuos.
+              </li>
+            </ul>
+            <img class="imagem imagem__direita" src="./assets/img/reuniao.jpg" alt="Pessoas em uma reunião"/>
+          </div>
+        </div>
+      </section>
+
+      <section class="container funcionalidades">
+        <div class="fourthPart">
+          <h1 class="titulo titulo__terceiro">Funcionalidades Principais</h1>
+          <div class="listaFuncionalidade">
+            <img
+              class="imagem imagem__esquerda" src="./assets/img/IA.jpg" alt="Homem sentado com uma imagem de um holograma de um robô na tela de seu tablet"
+            />
+            <ol class="paragrafo">
+              <li>
+                <strong class="forte">Automação de Processos:</strong class="forte"> Elimine tarefas
+                repetitivas e demoradas com nossas soluções de automação.
+                Aumente a produtividade da sua equipe e reduza erros
+                operacionais.
+              </li>
+              <li>
+                <strong class="forte">Chatbots e Assistentes Virtuais:</strong class="forte"> Melhore a
+                experiência do cliente com suporte instantâneo e eficaz. Nossos
+                chatbots são treinados para resolver problemas e responder
+                perguntas rapidamente.
+              </li>
+              <li>
+                <strong class="forte">Análise de Dados com IA:</strong class="forte"> Transforme dados em
+                insights valiosos. Utilize nossos algoritmos de aprendizado de
+                máquina para tomar decisões baseadas em dados.
+              </li>
+              <li>
+                <strong class="forte">Consultoria em Transformação Digital:</strong class="forte"> Receba
+                orientação especializada sobre como implementar soluções de
+                automação em sua organização. Nós ajudamos a identificar
+                oportunidades de melhoria e crescimento.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container depoimentos swiper">
+        
+        <div class="fifthPart">
+        <h1 class="titulo titulo__quarto">Depoimentos</h1>
+        <div class="card-wrapper">
+          <ul class="card-list swiper-wrapper">
+
+            <li class="card-item swiper-slide">
+              <div class="card-link" href="">
+                <img class="card-image" src="./assets/img/juan.jpg" alt="Juan da Silva">
+                <p class="badge">Juan da Silva</p>
+                <h2 class="card-title">"A NextTech transformou nossa forma de trabalhar. As soluções de automação nos permitiram economizar tempo e aumentar a eficiência."</h2>
+              </div>
+            </li> 
+
+            <li class="card-item swiper-slide">
+              <div class="card-link" href="">
+                <img class="card-image" src="./assets/img/Rodrigo.jpg" alt="Rodrigo Carvalho">
+                <p class="badge">Rodrigo</p>
+                <h2 class="card-title">"Os chatbots da NextTech melhoraram significativamente o atendimento ao cliente. Estamos muito satisfeitos com os resultados!"</h2>
+
+              </div>
+            </li>
+
+            <li class="card-item swiper-slide">
+              <div class="card-link" href="">
+                <img class="card-image" src="./assets/img/Ana.jpg" alt="Ana Luiza Alves">
+                <p class="badge">Ana Alves</p>
+                <h2 class="card-title">"Com as soluções da NextTech, conseguimos otimizar nossos processos internos, resultando em uma produtividade nunca antes vista!"</h2>
+              </div>
+            </li>
+
+            <li class="card-item swiper-slide">
+              <div class="card-link" href="">
+                <img class="card-image" src="./assets/img/gabriel.jpg" alt="Gabriel Roberto">
+                <p class="badge">Gabriel Roberto</p>
+                <h2 class="card-title">"A parceria com a NextTech foi um divisor de águas. A tecnologia deles nos ajudou a alcançar metas que pareciam impossíveis."</h2>
+                
+              </div>
+            </li>
+
+            <li class="card-item swiper-slide">
+              <div class="card-link" href="">
+                <img class="card-image" src="./assets/img/patrick.jpg" alt="Patrick Paiva">
+                <p class="badge">Patrick Paiva</p>
+                <h2 class="card-title">"As ferramentas de automação da NextTech nos deram uma vantagem competitiva, otimizando nossos fluxos de trabalho e melhorando os resultados."</h2>
+                
+              </div>
+            </li>
+
+            <li class="card-item swiper-slide">
+              <div class="card-link" href="">
+                <img class="card-image" src="./assets/img/Christian.jpg" alt="Christian Avellar">
+                <p class="badge">Christian</p>
+                <h2 class="card-title">"Estou muito satisfeito com a empresa NextTech, estava em uma situação precaria, e me ajudaram compartilhando uma caixa de salgados."</h2>
+              </div>
+            </li>
+
+            <li class="card-item swiper-slide">
+              <div class="card-link" href="">
+                <img class="card-image" src="./assets/img/cachorro.jpg" alt="Cachorro fofinho">
+                <p class="badge">Alpha</p>
+                <h2 class="card-title">AU AU AU AU, AU AU AU AU!</h2>
+              </div>
+            </li>
+          </ul>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next avanca"></div>
+        </div>
+      </div>
+      </section>
+      
+    </main>
+  
+    <footer class="container-fluid rodape text-center">
+      <div class="layout-rodape row g-3">
+        <ul class="footer__lista col-12 col-md-6 col-lg-3">
+          <div class="caixa">
+            <div class="logotipo">
+              <img src="/assets/icons/logo.svg" alt="Logo" />
+              <a class="navbar-brand p-1" href="#">NextTech</a>
+            </div>
+            <li>
+              <div class="footer_rede_social">
+                <a href="#" class="footer-link" id="instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="footer-link" id="facebook">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="footer-link" id="whatsapp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#" class="footer-link" id="twitter">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
+            </li>
+          </div>
+        </ul>
+
+        <ul class="footer__lista col-12 col-md-6 col-lg-3">
+          <div class="caixa">
+            <li>
+              <h4>Email</h4>
+            </li>
+            <a href="mailto:contato@nextech.com.br" class="email"
+              >contato@nextech.com.br</a
+            >
+            <li>
+              <h4>Telefone</h4>
+            </li>
+            <li>(99) 1234-5678</li>
+          </div>
+        </ul>
+
+        <ul class="footer__lista col-12 col-md-6 col-lg-3">
+          <div class="caixa">
+            <li>
+              <h4>Endereço</h4>
+            </li>
+            <li>Rua da Inovação, 123</li>
+            <li>Bairro da Tecnologia</li>
+            <li>Cidade, Estado, CEP</li>
+          </div>
+        </ul>
+
+        <ul class="footer__lista col-12 col-md-6 col-lg-3">
+          <div class="caixa">
+            <li>
+              <h4>
+                Horário de <br />
+                Atendimento
+              </h4>
+            </li>
+            <li>Segunda a Sexta: 9h às 18h</li>
+            <li>Sábado: 9h às 13h</li>
+          </div>
+        </ul>
+      </div>
+    </footer>
+    <section class="footer__copyright text-center">
+      <div>
+        <p class="teste">
+          &copy; 2024 NextTech. Todos os direitos reservados.
+          <a href="termos-de-uso.html" class="text-white">Termos de Uso</a> |
+          <a href="politica-de-privacidade.html" class="text-white"
+            >Política de Privacidade</a
+          >
+        </p>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/carrossel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const btnRolar = document.querySelector("#btnRolar");
+
+      btnRolar.addEventListener("click", function() {
+        $("html, body").animate({scrollTop: 0}, 150);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,241 @@
+.layout-rodape {
+    padding: 40px 0;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    margin-top: 10px;
+    padding: 1% 4% 2% 4%;
+    font-size: 16px;
+    background-color: #17191a;
+  }
+  
+  .email {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer__lista {
+    list-style: none;
+    padding: 15px;
+    margin: 20px 0;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+  }
+  
+  .footer_rede_social {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .footer_rede_social .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.5s;
+    z-index: 999;
+  }
+  
+  .footer_rede_social .footer-link i {
+    font-size: 1.25rem;
+  }
+  
+  .footer_rede_social .footer-link:hover {
+    opacity: 0.5;
+  }
+  
+  #instagram {
+    background-color: #4b2c63;
+  }
+  
+  #facebook {
+    background-color: #4b2c63;
+  }
+  
+  #whatsapp {
+    background-color: #4b2c63;
+  }
+  
+  #twitter {
+    background-color: #4b2c63;
+  }
+  
+  .caixa {
+    width: 93.9%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    padding-left: 27%;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    flex-direction: column;
+    
+  }
+  
+  .caixa h4,
+  .caixa li,
+  .caixa p,
+  .caixa a {
+    margin-bottom: 5px;
+    width: 80.3%;
+  }
+  
+  .logotipo a {
+    font-size: 20px;
+  }
+  
+  .logotipo img {
+    margin-bottom: 5px;
+  }
+  
+  .footer__copyright {
+    height: 30px;
+    background-color: #4b2c63;
+    color: rgba(255, 255, 255, 0.8);
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .footer__copyright p {
+    font-size: 72%;
+    margin-top: 2.2px;
+    padding-top: 5px;
+  }
+  
+  .footer__copyright a {
+    text-decoration: none;
+  }
+  
+  .footer_rede_social {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 15px;
+  }
+  
+  #btnRolar{
+    position: fixed;
+    right: 10px;
+    left: 92%;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#2E1A47;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: inset 0 0 32px 0 #4b2c63, 0 0 32px 0 #8343b4;
+    transition: 0.3s;
+    z-index: 99;
+  }
+  
+  @media(max-width:768px){
+    #btnRolar{
+      left: 85%;
+    }
+    
+  .footer__copyright p {
+    font-size: 65%;
+    margin-top: 2.2px;
+    padding-top: 6px;
+  }
+  }
+  
+  #btnRolar:active{
+    background-color: #9041cc;
+    box-shadow: inset 0 0 32px 0 #4B2C63, 0 0 32px 0 #a271c7;
+    width: 47px;
+    height: 47px;
+  }
+  
+  #btnRolar:hover{
+    background-color: #9041cc;
+    box-shadow: inset 0 0 32px 0 #4B2C63, 0 0 32px 0 #a271c7;
+  }
+  
+  /* coreção sobre */
+  @media (max-width: 821px) {
+    .imageClass{
+    width: 100%;
+  }
+  
+  .caixa > li {
+    width: 300px;
+  }
+  
+  .caixa{
+    padding: 0;
+  }
+  
+  .footer_rede_social{
+    width: 180px;
+  }
+  
+  .footer__lista{
+    width: 300px;
+  }
+  }
+  
+  @media (max-width: 1400px) {
+  .fazemos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .imgfazemos {
+    flex-direction: column;
+  }
+  
+  .imageClass, .imgfazemos > img{
+  margin: 0;
+  }
+  
+  .footer_rede_social{
+    width: 180px;
+  }
+  
+    .caixa > li {
+    width: 220px;
+  }
+  
+  
+   .caixa{
+    width: 220px;
+    padding-left: 19%;
+  }
+  
+  .footer__lista{
+    width: 250px;
+  }
+  
+  }
+  
+  .about img {
+    border-radius: 25px;
+  }
+  
+  .textoInicial{
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  .about > .fim .paragrafo > p{
+    margin-bottom: 90px;
+  }
+  
+  @media (max-width: 586px) {
+    .container_formulario {
+      transform: scale(0.8);
+    }
+  }
